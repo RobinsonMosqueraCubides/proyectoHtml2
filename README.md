@@ -13,4 +13,4 @@ Adicionalmente, hemos aplicado técnicas avanzadas de CSS para realzar la estét
 
 ## Funcionamiento Movil
 
-![nota](/home/robinsonmosquera/Documents/HTMLStorage/video/eComersMovil.gif)
+![nota](/home/robinsonmosStorage/video/eComersMovil.gif)
