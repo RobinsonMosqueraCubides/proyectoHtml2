@@ -7,5 +7,10 @@ La implementación del sistema grid se utilizó estratégicamente para organizar
 
 Adicionalmente, hemos aplicado técnicas avanzadas de CSS para realzar la estética general de la página, logrando una apariencia visualmente atractiva y profesional. La atención al detalle no se detiene ahí; hemos utilizado unidades como fr, rem, % y vh para garantizar que la página se adapte de manera óptima a cualquier tipo de pantalla, desde dispositivos de escritorio hasta teléfonos móviles.
 
-![no se encuentra](Storage/video/ecomermovil.gif)
+## Funcionamiento Web
 
+![nota](Storage/video/ecomersweb.gif)
+
+## Funcionamiento Movil
+
+![nota](/home/robinsonmosquera/Documents/HTMLStorage/video/eComersMovil.gif)
