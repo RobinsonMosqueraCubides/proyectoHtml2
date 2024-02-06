@@ -57,33 +57,36 @@
                     <br>
                     El modelo Atwood Vans cuenta con un diseño original de corte bajo, su parte superior esta confeccionada en lona resistente con ojales metálicos y en la parte baja la muy reconocida suela en forma de Waffle..</p>
                 <h3>$194.99</h3>
-                <button>Add to Cart</button>
-            </section>
-        </article>
-        <article class="main">
-            <section class="image">
-                <div class="secondary">
-                    <img src="Storage/Image/zapatos/zapatos2/zapato1.webp" alt="noimg">
-                    <img src="Storage/Image/zapatos/zapatos2/zapato2.webp" alt="noimg">
-                    <img src="Storage/Image/zapatos/zapatos2/zapato3.webp" alt="noimg">
-                    <img src="Storage/Image/zapatos/zapatos2/zapato4.webp" alt="noimg">
-                </div>
-                <div class="principal">
-                    <img src="Storage/Image/zapatos/zapatos2/zapato1.webp" alt="noimg">
-                </div>
-            </section>
-            <section class="text">
-                <h2>Zapatos Colegio Skoler C Blanco Para Niña Y Niño Croydon</h2>
-                <div class="star">
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star'></i>
-                    <i class='bx bxs-star-half'></i>
-                </div>
-                <p>Ideales para las actividades deportivas del colegio y en el parque ¡Resistentes y duraderos! Elaborados en sintético con suela en phylon ultraliviano con apliques en tpr, cordones ajustables. forro en malla textil. pieza de refuerzo en puntera. hecho en china. 2 meses de garantía. Hecho en China. 2 meses de garantía. Código SIC: 800120681</p>
-                <h3>$92.99</h3>
-                <button>Add to Cart</button>
+                <dialog  id="dialog">
+                    <div class="ventana">
+                        <h2>Tenis Gum Active Azul Atwood Hombre Vans</h2>
+                        <img src="Storage/Image/zapatos/zapato1/zapatos1.webp" alt="noimg">
+                        <div class="star">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                        </div>
+                        <p>Tenis Vans Gum Active Azul Atwood Hombre
+                            <br>
+                            Somos el Distribuidor Oficial Autorizado para VANS en Colombia, todos nuestros productos son originales y cuentan con garantía de fábrica.
+                            <br>
+                            El modelo Atwood Vans cuenta con un diseño original de corte bajo, su parte superior esta confeccionada en lona resistente con ojales metálicos y en la parte baja la muy reconocida suela en forma de Waffle..</p>
+                        <h3>$194.99</h3>
+                        <button id="hide">Add to cart</button>
+                    </div>
+                </dialog>
+                <button id="show">Add to Cart</button>
+                <script>
+                    window.show.addEventListener('click', () => {
+                      window.dialog.showModal()
+                  })
+                
+                  window.hide.addEventListener('click', () => {
+                      window.dialog.close()
+                  })
+                </script>
             </section>
         </article>
         <article class="main">
